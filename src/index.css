@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #121212;
+  color: #efefef;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.todo {
+  width: 70%;
+  margin: 50px auto;
+  padding: 20px 40px;
+  background: #4a4747;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.del {
+  background: red;
+  color: #fff;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+form {
+  width: 80%;
+  margin: 50px auto;
+  border: 1px solid #ffffff7c;
+  border-radius: 30px;
+  padding: 5px 20px;
+  display: grid;
+  grid-template-columns: 1fr 150px;
+  gap: 20px;
+}
+form input {
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #fff;
+  font-size: 20px;
+}
+button {
+  padding: 10px 25px;
+  border: none;
+  cursor: pointer;
+  background: green;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+input[type="checkbox"] {
+  border: none;
+  width: 50px;
+  accent-color: green;
+}
+.todo > div {
+  display: flex;
+  gap: 10px;
+}
+.no {
+  width: 50%;
+  margin: 20vh auto;
+  text-align: center;
+  font-size: 5vh;
+}
